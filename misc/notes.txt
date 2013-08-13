@@ -1,0 +1,17 @@
+Intervals:
+
+(a, b) - Approaches a and b, but never touches them.
+[a, b] - From a to b.
+
+\infty is ()
+
+\bigcup - connector (U) can be used to indicate or.
+
+
+domain is infinite (-\infty, infty), unless f(x) has divide by 0, even root of -number or logarithm of non-positive number.
+
+\sqrt[n]{x} \,=\, x^{1/n} 
+
+In mathematics, a polynomial is an expression constructed from variables (also called indeterminates) and constants (usually numbers, but not always), using only the operations of addition, subtraction, multiplication, and non-negative integer exponents (which are abbreviations for several multiplications by the same value). However, the division by a constant is allowed, because the multiplicative inverse of a non-zero constant is also a constant. For example, x2 − x/4 + 7 is a polynomial, but x2 − 4/x + 7x3/2 is an algebraic expression that is not a polynomial, because its second term involves a division by the variable x (the term 4/x), and also because its third term contains an exponent that is not a non-negative integer (3/2).
+
+A polynomial function is a function which is defined by a polynomial. Sometimes, the term "polynomial" is reserved for the polynomials that are explicitly written as a sum (or difference) of terms involving only multiplications and exponentiation by non negative integer exponents. In this context, the other polynomials are called polynomial expressions. For example, (x-y)^2 is a polynomial expression that represents the same thing as the polynomial x^2-2xy+y^2. The term "polynomial", as an adjective, can also be used for quantities that can be expressed as a polynomial of some parameter, as in polynomial time, which is used in computational complexity theory.

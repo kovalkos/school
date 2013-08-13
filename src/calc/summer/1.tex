@@ -1,0 +1,155 @@
+\documentclass[a4paper]{article}
+
+\usepackage[margin=1cm]{geometry}
+
+\usepackage{bm}
+\usepackage{amsmath}    % subequations
+\usepackage{graphicx}   % figures
+\usepackage{verbatim}   % useful for program listings
+\usepackage{color}
+\usepackage{subfigure}  % side-by-side figures
+\usepackage{hyperref}   % use for hypertext links, including those to external documents and URLs
+
+%NOTE: it is recommended to use \textbf{stuff} instead of \bf{stuff}
+
+\renewcommand{\arraystretch}{2.4} %vertical spacing for tables
+
+\begin{document}
+   \title{Summer Assignments Part A} 
+   \author{ Konstantin Kowalski (Kostyantyn Kovalskyy) \\ \texttt{} }
+   \maketitle
+
+   \section{Function Assignment}
+
+   \begin{itemize} \itemsep 3em
+
+   \item
+      If $ f(x) = 4x-x^2 $, find
+
+      \begin{tabular}{ p{5cm} p{5cm} p{5cm} }
+         1. $ f(4)-f(-4)                  $&
+         2. $ \sqrt{ f( \frac{3}{2} ) }   $&
+         3. $ \frac{ f(x+h)-f(x-h) }{ 2h }$
+      \\
+         $ 0 - -32 = \bm{32}              $&
+         $ \sqrt{ 6 - \frac{9}{4} }       $&
+         $ \frac{ (4(x+h)-(x+h)^2) - (4(x-h) - (x-h)^2) }{ 2h } $
+      \\
+                                           &
+         $ \sqrt{ 3 \frac{3}{4} }         $&
+         $ \frac{ 8h - 2hx }{ 2h }        $
+      \\
+                                           & 
+         $ \bm{1.94}                      $&
+         $ \bm{4h-x}                      $
+      \end{tabular}
+
+   \item
+      If $ V(r) = \frac{4}{3} \pi r^3 $, find
+        
+      \begin{tabular}{ p{5cm} p{5cm} p{5cm} }
+         4. $ V( \frac{3}{4} )            $&
+         5. $ V(r+1)-V(r-1)               $&
+         6. $ \frac{ V(2r) }{ V(r) }      $
+      \\
+         $ \bm{ \frac{9}{16} \pi \approx 1.77 }                $&
+         $ \frac{4}{3} \pi (r+1)^3 - \frac{4}{3} \pi (r-1)^3   $&
+         $ \bm{8}                                              $
+      \\
+                                                                &
+         $ \bm{ \frac{4}{3} \pi (6r^2 + 2) }                   $
+      \end{tabular}
+      
+   \item
+      If $ f(x) $ and $ g(x) $ are given in the graph below, find
+
+      \begin{tabular}{ p{6cm} p{6cm} }
+         7. $ (f-g)(3)     $&
+         8. $ f(g(3))      $
+      \\
+         $ 2-3 = \bm{-1}   $&
+         $ f(3) = \bm{2}   $
+      \end{tabular}
+
+    \includegraphics[width=6cm]{summer/pic1.png}
+\\
+
+   \item
+      If $ f(x) = x^2 - 5x + 3 $ and $ g(x)=1-2x $, find \\
+
+      9. $ f(g(x)) = \bm{ (1-2x)^2 - 5(1-2x) + 3 } $
+   
+   \item
+      If $
+      f(x) =
+      \begin{cases}
+         \sqrt{x+2}-2 & \text{when } x \geq 2 \\
+         x^2-1        & \text{when } 0 \leq x \leq 2 \\
+         -x           & \text{when } x < 0
+      \end{cases} $
+      , find
+
+      \begin{tabular}{ p{5cm} p{5cm} p{5cm} }
+         10. $ f(0) - f(2)          $&
+         11. $ \sqrt{ 5 - f(-4) }   $&
+         12. $ f(f(3))              $
+      \\
+         $ -1 - 0 = \bm{-1}         $&
+         $ \sqrt{ 5-4 } = \bm{1}    $&
+         $ f( \sqrt{5} - 2 )        $
+      \\
+                                     &
+                                     &
+         $ ( \sqrt{5} - 2 )^2 - 1   $
+      \\
+                                     &
+                                     &
+         $ \bm{0.94}                $
+      \end{tabular}
+
+   \end{itemize}
+
+   \section{Domain and Range Assignment}
+   
+   \begin{itemize} \itemsep 3em
+
+   \item Find the domain of the following functions using interval notation:
+   
+   \begin{tabular}{ p{5cm} p{5cm} p{5cm} }
+      1. $ f(x) = 3                        $&
+      2. $ y = x^3 - x^2 + x               $&
+      3. $ y = \frac{ x^3 - x^2 + x }{ x } $
+   \\ 
+      $ \bm{ (-\infty ,  \infty) }         $&
+      $ \bm{ (-\infty, \infty) }           $&
+      $ (-\infty, 0) \cup (0, \infty)      $
+   \\
+                                            &
+                                            &      
+      $ \bm{ x \neq 0 } $
+   \end{tabular}
+
+   \begin{tabular}{ p{5cm} p{5cm} p{5cm} }
+      4. $ y = \frac{ x-4 }{ x^2-16 }      $&
+      5. $ f(x) = \frac{ 1 }{ 4x^2-4x-3 }  $&
+      6. $ y = \sqrt{ 2x-9 }               $
+   \\
+      $ \bm{ x \neq 4 \cup x \neq -4 }   x!=-1/2 x!=3/2  $
+       
+
+   \end{tabular}
+
+
+
+
+
+
+   \end{itemize}
+
+\end{document}
+
+
+
+
+
+
